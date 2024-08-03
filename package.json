@@ -1,7 +1,7 @@
 {
   "name": "proyecto-6",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node .",
     "dev": "node --watch ."

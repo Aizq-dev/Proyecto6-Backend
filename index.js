@@ -1,10 +1,10 @@
 require('dotenv').config()
 
 const express =require('express')
-const { connectDB } = require('./config/db')
-const mainRoutes =require('./api/routes/indexRouter')
-const { setError } = require('./config/error')
-const { initialData } = require('./api/controllers/initialDate')
+const { connectDB } = require('./src/config/db')
+const mainRoutes =require('./src/api/routes/indexRouter')
+const { setError } = require('./src/config/error')
+const { initialData } = require('./src/api/controllers/initialDate')
 
 
 connectDB
